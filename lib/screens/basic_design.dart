@@ -8,16 +8,16 @@ class BasicDesignScreen extends StatelessWidget {
     return Scaffold(
         body: Column(
       children: [
-        // Imagen
+        //! Image
         const Image(image: AssetImage('assets/image_1.jpg')),
 
-        // Title
+        //! Title
         const Title(),
 
-        // Button Section
+        //! Button Section
         const ButtonSection(),
 
-        // Description
+        //! Description
         Container(
             margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: const Text(
@@ -49,6 +49,7 @@ class Title extends StatelessWidget {
                   style: TextStyle(color: Colors.black45)),
             ],
           ),
+          //! takes all the available space
           Expanded(child: Container()),
           const Icon(Icons.star, color: Colors.red),
           const Text('41'),
