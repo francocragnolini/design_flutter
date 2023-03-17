@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "basic_design",
       routes: {
-        'basic_design': (context) => BasicDesignScreen(),
+        'basic_design': (context) => const BasicDesignScreen(),
       },
     );
   }
